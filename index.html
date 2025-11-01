@@ -3,67 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>UAV STEM Platform</title>
+  <title>UAV STEM Playground</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <aside class="sidebar">
-    <h2>UAV STEM</h2>
+  <header>
+    <h1>🛸 UAV STEM Playground</h1>
     <nav>
       <a href="#dashboard">Dashboard</a>
       <a href="#telemetry">Telemetry</a>
       <a href="#sensors">Sensors</a>
-      <a href="#config">Kit Config</a>
-      <a href="#users">Users</a>
+      <a href="#builder">Kit Builder</a>
+      <a href="#roles">Roles</a>
     </nav>
-  </aside>
+  </header>
 
-  <main>
-    <section id="dashboard">
-      <h1>Dashboard</h1>
-      <p>Welcome to the UAV STEM platform. Monitor, configure, and explore your drone kit.</p>
-    </section>
+  <section id="dashboard" class="section">
+    <h2>Welcome, Young Pilot! 🚀</h2>
+    <p>Explore your drone kit, learn STEM, and fly into fun!</p>
+    <img src="https://cdn.pixabay.com/photo/2020/06/04/15/06/drone-5259643_1280.png" alt="Cartoon Drone" class="hero-img">
+  </section>
 
-    <section id="telemetry">
-      <h2>Live Telemetry</h2>
-      <div class="telemetry-grid">
-        <div class="card"><h3>Altitude</h3><p>120m</p></div>
-        <div class="card"><h3>Speed</h3><p>45 km/h</p></div>
-        <div class="card"><h3>Battery</h3><p>78%</p></div>
-        <div class="card"><h3>GPS</h3><p>Connected</p></div>
-      </div>
-    </section>
+  <section id="telemetry" class="section">
+    <h2>📡 Live Telemetry</h2>
+    <div class="grid">
+      <div class="card"><h3>Altitude</h3><p>120m</p></div>
+      <div class="card"><h3>Speed</h3><p>45 km/h</p></div>
+      <div class="card"><h3>Battery</h3><p>78%</p></div>
+      <div class="card"><h3>GPS</h3><p>Connected</p></div>
+    </div>
+  </section>
 
-    <section id="sensors">
-      <h2>Sensor Data</h2>
-      <p>Visualize IMU, temperature, and GPS data in real-time.</p>
-      <div class="sensor-chart">[Chart Placeholder]</div>
-    </section>
+  <section id="sensors" class="section">
+    <h2>🔬 Sensor Playground</h2>
+    <p>IMU, GPS, and temperature data — all visualized for fun!</p>
+    <div class="chart-placeholder">📊 [Chart Placeholder]</div>
+  </section>
 
-    <section id="config">
-      <h2>Kit Configuration</h2>
-      <form>
-        <label>Flight Mode:
-          <select>
-            <option>Manual</option>
-            <option>Stabilized</option>
-            <option>Autonomous</option>
-          </select>
-        </label>
-        <label>Max Altitude:
-          <input type="number" value="150" />
-        </label>
-        <button type="submit">Apply Settings</button>
-      </form>
-    </section>
+  <section id="builder" class="section">
+    <h2>🧩 Kit Builder</h2>
+    <p>Drag and drop your drone parts to assemble your flying buddy!</p>
+    <div class="grid">
+      <div class="card"><h3>Airframe</h3><p>Lightweight foam body</p></div>
+      <div class="card"><h3>Sensor Suite</h3><p>GPS, IMU, Temp</p></div>
+      <div class="card"><h3>Flight Controller</h3><p>ESP32 magic!</p></div>
+      <div class="card"><h3>Mobile App</h3><p>Control & visualize</p></div>
+    </div>
+  </section>
 
-    <section id="users">
-      <h2>User Roles</h2>
-      <ul>
-        <li>👩‍🏫 Educator - Full access</li>
-        <li>👨‍🎓 Student - View only</li>
-      </ul>
-    </section>
-  </main>
+  <section id="roles" class="section">
+    <h2>🎓 User Roles</h2>
+    <div class="grid">
+      <div class="card"><h3>👩‍🏫 Educator</h3><p>Full access to all features</p></div>
+      <div class="card"><h3>👦 Student</h3><p>View and explore data</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made for Curious Minds 💡 | © 2025 UAV STEM</p>
+  </footer>
 </body>
 </html>
